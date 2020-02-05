@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.wrapper{
+     background-image:url(../images/fon.jpg);
+    background-repeat:repeat-y;
+    max-width:100%; 
+    height:auto;
+     margin: 0;
+    padding: 0;
+    display: block;
+}
+.container{
+    width:800px;
+    max-height: 100%;
+    max-width:100%;
+    height: 2300px;
+    display: block;
+    margin:0 auto;
+    padding-top:50px;
+}
+.rect{
+    width:800px;
+    height:311vh;
+    background-color: #ffffff;
+    border-radius:20px;
+    display: block;
+    max-width: 100%;
+}
+.blockmain{
+    max-width: 100%;
+    display: block;
+    height:274vh;
+    margin: 0;
+    padding: 0;
+}
+.block1{
+    height: 370px;
+    width: 100%;
+    display: block;
+}
+.block2{
+    height: auto;
+}
+.block_left{
+    float:left;
+    width: 38%;
+    height: auto;
+}
+.forma{
+     background-color: #13385f;
+    width: 304px;
+    height: 370px;
+   background: rgba(235	215	114, 0.7);
+    border-radius:20px 0px 0px 0px;
+    margin: 0px 0 0 0px;
+    max-width: 100%;
+}
+.in{
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 100%;
+}
+.space{
+    width: 496px;
+    height: 370px;
+    border-radius: 0px 20px 0px 0px;
+}
+.i1{
+    border-radius:10px;
+    height:40px;
+    margin:7px auto;
+    width: 230px;
+}
+.but {
+    width:210px;
+    height:50px;
+    border-radius:10px;
+    background-color: #58a3f1;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid black;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin: 0px 0 0 44px ;
+    max-width: 100%;
+}
+.block_right{
+    float:right;
+    width: 62%;
+    height: auto;
+    background-image:url(../images/space.jpg);
+    border-radius:0 20px 0 0;
+}
+.br{
+    font-size:36px;
+    color:#fff;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.order{
+    color:red;
+    text-transform: uppercase;
+    font-size:20px;
+    margin-top: 210px;
+    margin-left: 30px;
+    padding-bottom: 28px;
+}
+.lum1{
+    font-size:24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.lum{
+    font-size:20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.roza{
+        width: 780px;
+    height: 650px;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+.d{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 155px;
+    float: left;
+    display: block;
+}
+.n{
+    font-size:22px;
+    font-weight: bold;
+    float: right;
+    margin-top: 70px;
+    display: block;
+    margin-right: 142px;
+}
+.kart{
+    display: flex;
+    flex-direction:row;
+    margin-top: 130px;
+    margin-left: 39px;
+}
+.day{
+    width: 370px;
+    height: 370px;
+    float: left;
+}
+.night{
+    width: 370px;
+    height: 370px;
+    float: right;
+}
+.block_left2{
+    float:left;
+    width: 38%;
+    height: auto;
+}
+.block_right2{
+    float:right;
+    width: 62%;
+    height: auto;
+    background-image:url(../images/space.jpg);
+    border-radius:0 0px 20px 0;
+}
+.block3{
+    padding-top: 50px;
+}
+.forma2{
+    background-color: #13385f;
+    width: 304px;
+    height: 370px;
+   background: rgba(235	215	114, 0.7);
+    border-radius:0px 0px 0px 20px;
+    margin: 0px 0 0 0px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+/*для телефонов*/
+
+@media screen and (max-width: 720px) {
+
+     body {
+         max-width: 100%;
+     }
+
+     html {
+         max-width: 100%;
+     }
+
+     .container {
+         height: 1850px;
+     }
+
+     .rect {
+         max-width: 80%;
+         max-height: 500vh;
+         height: 2308px;
+         margin: 0 auto;
+         
+     }
+
+     .block_left {
+         width: 38%;
+     }
+
+     .block_right {
+         width: 62%;
+          background-position: left;
+    background-size: cover;
+     }
+    .block_right2 {
+         width: 62%;
+          background-position: left;
+    background-size: cover;
+     }
+    .block1 {
+         height: 171px;
+     }
+    .block2{
+           height: 1190px;
+    }
+    .block3{
+        height: 231px;
+    }
+    .forma{
+            width: 109px;
+    height: 171px;
+    margin: -10px 0 0 0px;
+
+    }
+    .forma2{
+            width: 109px;
+    height: 171px;
+    margin: -10px 0 0 0px;
+
+    }
+    .in{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        height: auto;
+        margin: 10px 6px;
+        width: 100%;
+    }
+    .i1{
+        width: 84px;
+        height: 10px;
+        margin: 4px;
+        border-radius:5px;
+    }
+    .but{
+        width: 80px;
+        height: 3vh;
+        font-size: 10px;
+        border-radius:3px;
+        border:none;
+        margin: 50px 0 10px 15px;
+    }
+    .roza{
+        width: 200px;
+        height: 200px;
+    }
+    .day{
+        width: 100px;
+        height: 100px;
+    }
+    .night{
+        width: 100px;
+        height: 100px;
+    }
+    .br{
+        font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+    }
+    .order{
+            color: red;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 77px;
+    margin-left: 10px;
+    padding-bottom: 28px;
+    }
+    .lum{
+            font-size: 10px;
+    margin-left: 13px;
+    margin-top: 13px;
+
+    }
+    .lum1{
+                font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
